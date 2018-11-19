@@ -5,9 +5,11 @@
 ## 说明
 
 使用了vux2的模板，开发微信相关功能的H5非常方便
+
 具体文档可以看 https://doc.vux.li/zh-CN/
 
 封装了自动注册router和store , Api使用flyio并封装
+
 在单独的页面store.js中增加了namespaced:true。需要根据文件名来区分state及commit，这样子不同的store中的方法重名也不需要担心出错了。具体使用可以加actions，使用vuex的mapState、mapActions辅助函数方便使用。
 ``` js
 import { mapState, mapActions } from 'vuex'
@@ -40,7 +42,9 @@ export default {
       mediaQuery: false // 允许在媒体查询中转换`px`
    }
 ```
+
 自动转换vm或者rem单位可忽略第三方ui，比如vux
+
 通过.postcssrc.js文件设置
   
 
