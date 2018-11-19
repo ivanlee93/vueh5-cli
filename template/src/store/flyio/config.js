@@ -8,7 +8,6 @@ export default {
   loading: {
     limitTime: 200, // 接口请求在xxxms内完成则不展示loading
     loadingShow: () => {
-      console.log(Vue)
       Vue.$vux.loading.show({
         text: '加载中'
       })
