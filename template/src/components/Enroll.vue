@@ -1,6 +1,6 @@
 <template>
   <div class="enroll">
-    {{msg}}
+
   </div>
 </template>
 
@@ -25,10 +25,10 @@ export default {
       this.getProvince({
         token: '1b35d1d2cfcd57d6c5d984432ea5b488',
         pid: 912,
-        id: 26      }).then(res => {
-        console.log('页面中接口回调后的提示：' + res.shop_name)
-        console.log(res)
-      })
+        id: 26 }).then(res => {
+          console.log('页面中接口回调后的提示：' + res.shop_name)
+          console.log(res)
+        })
       // this.getProvince({
       //   appid: 'bb876d15cbe0320032e6150ad36b45ce',
       // }).then(res => {
