@@ -40,7 +40,7 @@ export default {
       mediaQuery: false // 允许在媒体查询中转换`px`
    }
 ```
-  自动转换vm或者rem单位可忽略第三方ui，比如vux
-  通过.postcssrc.js文件设置
+自动转换vm或者rem单位可忽略第三方ui，比如vux
+通过.postcssrc.js文件设置
   
 
