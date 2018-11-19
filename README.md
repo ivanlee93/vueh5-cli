@@ -2,6 +2,15 @@
 
 > 自己工作用的脚手架 , 封装了用vue写H5的环境
 
+## 基本用法
+``` bash
+$ npm install -g vue-cli
+$ vue init ivanlee93/mpvue-cli mpvuesimple
+$ cd mpvuesimple
+$ npm install
+$ npm run dev
+```
+
 ## 说明
 
 使用了vux2的模板，开发微信相关功能的H5非常方便
