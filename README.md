@@ -5,8 +5,8 @@
 ## 基本用法
 ``` bash
 $ npm install -g vue-cli
-$ vue init ivanlee93/mpvue-cli mpvuesimple
-$ cd mpvuesimple
+$ vue init ivanlee93/vueh5-cli vueh5simple
+$ cd vueh5simple
 $ npm install
 $ npm run dev
 ```
