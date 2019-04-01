@@ -26,7 +26,7 @@ export default {
 具体用法请看 https://github.com/spencer1994/vue-chunkRoutesStore
 
 
-适配方案使用 postcss-px-to-viewport-lagou 
+适配方案使用 postcss-px-to-viewport-lagou，配置文件为.postcssrc.js
 ``` js
 "postcss-px-to-viewport-lagou": {
       viewportWidth: 750, // 视窗的宽度，对应的是我们设计稿的宽度，一般是750
